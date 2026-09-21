@@ -1,7 +1,7 @@
 # Truth Table Generator
 
 ## Files
-``truthtable.py`` is the backend for the truth table generator.
+``truthtable.py`` is the backend for the truth table generator.  
 ``main.py`` is the entry point, and is intended to be modified.
 
 # Example Usage
