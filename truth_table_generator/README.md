@@ -26,7 +26,7 @@ truthtable.print_truth_table(f);
 
 ## Running
 
-Run `main.py`` like so: 
+Run ``main.py`` like so: 
 ```sh
 $ python main.py
 ```
