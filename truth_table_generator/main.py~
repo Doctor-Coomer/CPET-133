@@ -1,6 +1,0 @@
-import truthtable;
-
-def f(x:bool, y:bool) -> bool:
-    return (x and y);
-
-truthtable.print_truth_table(f);
