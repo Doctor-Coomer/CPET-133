@@ -8,7 +8,8 @@
 
 ## Modify
 
-Define a function with the signature ``Callable[[bool, Optional[...:bool]], bool]`` (this will be our "circut", and or our Boolean Algebra function).
+Define a function with the signature ``Callable[[bool, Optional[...:bool]], bool]`` (this will be our "circut", and or our Boolean Algebra function).  
+This example will be an AND gate. The Boolean Algebra would look like ``f = XY``.  
 
 ```python
 import truthtable;
@@ -45,6 +46,7 @@ x | y | f
 
 # Other examples
 
+``f = AB + C'``
 ```python
 def f(a:bool, b:bool, c:bool) -> bool:
     return (a and b) or (not c);
