@@ -1,0 +1,11 @@
+# Truth Table Generator
+
+## Files
+``truthtable.py`` is the backend for the truth table generator.
+``main.py`` is the entry point, and is intended to be modified.
+
+# Example Usage
+
+## Modify
+
+Define a function with the signature ``Callable[[bool, Optional[...:bool]], bool]`` (this will be our "circut", and or our Boolean Algebra function).
