@@ -1,6 +1,6 @@
 import truthtable;
 
-def f(a:bool, b:bool, c:bool) -> bool:
-    return (a and b) or (not c);
+def f(a:bool, b:bool) -> bool:
+    return (a and b);
 
 truthtable.print_truth_table(f);
